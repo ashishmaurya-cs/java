@@ -1,0 +1,18 @@
+package com.ashish;
+
+public class ConfusedComplier {
+ 
+	static void sum(int a, long b){
+		long sum =a+b;
+		System.out.println(sum);
+	}
+	
+	static void sum(long a, int b){
+		long sum =a+b;
+		System.out.println(sum);
+	}
+	
+	public static void main(String[] args) {
+		sum(43, 7);
+	}
+}

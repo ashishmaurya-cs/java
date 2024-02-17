@@ -1,0 +1,113 @@
+<html>
+    <head>
+       
+        <title> Website for Selenium Testing </title>
+        <meta charset="utf-8">
+        
+        
+        
+        <style>
+         *{
+            box-sizing:border-box;
+        }
+        body{
+        
+            margin:0;
+            background:#7FFFD4;
+        }
+        h1{
+            font-family:Arial;
+        }
+        h2{
+            font-family:Arial;
+        }
+        h4{
+            font-family:Arial;
+            margin:20px;
+        }
+        table{
+            margin:50px;
+            width:50%;
+            height:50%;
+        }
+        tr{
+            text-align:center;
+            font-family:Arial;
+        }
+        td{
+            text-align:center;
+            font-family:Arial;
+        }
+        .Loginbox {
+            margin:20px;
+            padding:0;
+            font-weight:bold;
+        }
+        .Loginbox input{
+            margin-bottom: 20px;
+        }
+        
+        </style>
+        
+        </head>
+        
+    <body>
+         
+        <h1 id = "h1Tag" align="center"> Selenium Testing </h1>
+        
+        <h2 id = "h2Tag" align = "center"> A demo webiste created to demostrate Selenium Testing </h2>
+        
+        <h4 id = "h4Tag"> The Team Members are as follows: </h4>
+        <table class = "table" border="1px";>
+     <thead>
+       <tr>
+         <th>Team Number</th>
+         <th>Team Member</th>
+       </tr>
+     </thead>
+
+     <tbody>
+       <tr>
+         <td>Team 2</td>
+         <td>Bhavana S </td>
+       </tr>
+
+       <tr>
+         <td>Team 2 </td>
+         <td> Chandralekha </td>
+       </tr>
+       
+        <tr>
+         <td>Team 2 </td>
+         <td> Ram </td>
+       </tr>
+       
+        <tr>
+         <td>Team 2 </td>
+         <td> Murli</td>
+       </tr>
+       
+        <tr>
+         <td>Team 2 </td>
+         <td> Nitesh </td>
+       </tr>
+       
+        <tr>
+         <td>Team 2 </td>
+         <td> Vali </td>
+       </tr>
+     </tbody>
+   </table>
+        
+    <div class = "Loginbox">
+        <h4 id = "loginh4Tag"> Login Here </h4>
+        <form class = "form">
+            <input type = "text" name = "TeamNumber" id = "TeamNo" placeholder = "Enter Team Number">
+            <input type = "button" id = "button" name = "submit" value = "Login" onclick="validate()">
+        </form>
+    </div>
+    <script src = "selenium.js"></script>
+    
+    </body>
+
+</html>

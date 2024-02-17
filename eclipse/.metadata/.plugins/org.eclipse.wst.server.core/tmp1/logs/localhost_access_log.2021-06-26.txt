@@ -1,0 +1,12 @@
+127.0.0.1 - - [26/Jun/2021:12:17:38 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [26/Jun/2021:12:18:37 +0530] "GET /ServletSession/index.html HTTP/1.1" 200 292
+0:0:0:0:0:0:0:1 - - [26/Jun/2021:12:18:51 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [26/Jun/2021:12:23:00 +0530] "GET /ServletSession/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Jun/2021:12:23:03 +0530] "GET /ServletSession/login.html HTTP/1.1" 200 316
+0:0:0:0:0:0:0:1 - - [26/Jun/2021:12:23:13 +0530] "POST /ServletSession/Login HTTP/1.1" 200 558
+0:0:0:0:0:0:0:1 - - [26/Jun/2021:12:26:12 +0530] "POST /ServletSession/Login HTTP/1.1" 200 229
+0:0:0:0:0:0:0:1 - - [26/Jun/2021:12:26:16 +0530] "GET /ServletSession/Profile HTTP/1.1" 200 227
+0:0:0:0:0:0:0:1 - - [26/Jun/2021:12:26:20 +0530] "GET /ServletSession/Logout HTTP/1.1" 200 241
+0:0:0:0:0:0:0:1 - - [26/Jun/2021:12:28:29 +0530] "GET /ServletSession/Logout HTTP/1.1" 200 555
+0:0:0:0:0:0:0:1 - - [26/Jun/2021:12:28:32 +0530] "GET /ServletSession/Profile HTTP/1.1" 200 554
+0:0:0:0:0:0:0:1 - - [26/Jun/2021:12:28:34 +0530] "GET /ServletSession/Logout HTTP/1.1" 200 555

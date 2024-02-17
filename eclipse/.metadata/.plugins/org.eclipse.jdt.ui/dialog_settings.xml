@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="TypeHierarchyViewPart.qualifiednames"/>
+	<item value="3" key="TypeHierarchyViewPart.orientation"/>
+	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
+	<item value="F:\software" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="false" key="SortMembers.sort_all"/>
+	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
+	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
+		<item value="2" key="layout"/>
+		<item value="true" key="group_libraries"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1582365864521&quot;&gt;&#x0D;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0D;&#x0A;&lt;xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsConnections&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsTempFiles&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;/customFilters&gt;&#x0D;&#x0A;&lt;/packageExplorer&gt;" key="memento"/>
+		<item value="1" key="rootMode"/>
+		<item value="false" key="linkWithEditor"/>
+	</section>
+	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
+		<item value="519" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="678" key="DIALOG_HEIGHT"/>
+		<item value="432" key="DIALOG_X_ORIGIN"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="SourceActionDialog.constructors">
+		<item value="false" key="SynchronizedModifier"/>
+		<item value="false" key="Comments"/>
+		<item value="1" key="VisibilityModifier"/>
+		<item value="false" key="FinalModifier"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.text.QuickOutline">
+		<item value="true" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_SIZE"/>
+		<item value="500" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_WIDTH"/>
+		<item value="440" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_HEIGHT"/>
+		<item value="false" key="GoIntoTopLevelTypeAction.isChecked"/>
+		<item value="false" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
+	</section>
+	<section name="javadoc">
+		<item value="public" key="access"/>
+		<item value="false" key="noindex"/>
+		<item value="false" key="nodeprecatedlist"/>
+		<item value="true" key="use"/>
+		<item value="true" key="author"/>
+		<item value="false" key="nodeprecated"/>
+		<item value="false" key="nonavbar"/>
+		<item value="" key="docletpath"/>
+		<item value="C:\Program Files\Java\jdk1.8.0_25\bin\javadoc.exe" key="javadoc_command_history"/>
+		<item value="1.3" key="source"/>
+		<item value="true" key="version"/>
+		<item value="" key="docletname"/>
+		<item value="true" key="splitindex"/>
+		<item value="true" key="fromStandard"/>
+		<item value="false" key="notree"/>
+		<item value="C:\Users\RAM ASHISH\Desktop\anandwadi" key="destdir"/>
+		<item value="false" key="openinbrowser"/>
+		<section name="projects">
+			<section name="hibernatewrapper">
+				<item value="F:\eclipse\hibernatewrapper\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\hibernatewrapper\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="practice">
+				<item value="F:\eclipse\practice\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\practice\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="servlet">
+				<item value="F:\eclipse\servlet\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\servlet\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="springjdbctemplate">
+				<item value="F:\eclipse\springjdbctemplate\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\springjdbctemplate\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="e-Library">
+				<item value="C:\Users\RAM ASHISH\Downloads\elibraryservlet\ELibrary\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\RAM ASHISH\Downloads\elibraryservlet\ELibrary\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="servletcrud">
+				<item value="F:\eclipse\servletcrud\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\servletcrud\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="String">
+				<item value="F:\programs\java\String\javadoc.xml" key="antpath"/>
+				<item value="F:\programs\java\String\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Servers">
+				<item value="F:\eclipse\Servers\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\Servers\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="springcore2">
+				<item value="F:\eclipse\springcore2\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\springcore2\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="springJdbc">
+				<item value="F:\eclipse\springJdbc\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\springJdbc\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Java 8">
+				<item value="F:\eclipse\Java 8\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\Java 8\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="hibernatedelete">
+				<item value="F:\eclipse\hibernatedelete\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\hibernatedelete\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="springcore1">
+				<item value="F:\eclipse\springcore1\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\springcore1\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="hibernateupdate">
+				<item value="F:\eclipse\hibernateupdate\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\hibernateupdate\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="SpringList">
+				<item value="F:\eclipse\SpringList\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\SpringList\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="NumberPattern">
+				<item value="F:\eclipse\NumberPattern\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\NumberPattern\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ServletSession">
+				<item value="F:\eclipse\ServletSession\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\ServletSession\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="SpringResultSetExtractor">
+				<item value="F:\eclipse\SpringResultSetExtractor\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\SpringResultSetExtractor\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="SpringMVCEx1">
+				<item value="F:\eclipse\SpringMVCEx1\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\SpringMVCEx1\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="SpringMVCEx2">
+				<item value="F:\eclipse\SpringMVCEx2\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\SpringMVCEx2\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="package">
+				<item value="F:\eclipse\package\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\package\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="hibernateweb">
+				<item value="F:\eclipse\hibernateweb\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\hibernateweb\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="OOPs">
+				<item value="F:\eclipse\OOPs\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\OOPs\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="SpringMAp">
+				<item value="F:\eclipse\SpringMAp\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\SpringMAp\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="August">
+				<item value="F:\eclipse\August\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\August\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Multithreading">
+				<item value="F:\eclipse\Multithreading\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\Multithreading\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="SpringMapObject">
+				<item value="F:\eclipse\SpringMapObject\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\SpringMapObject\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ServletCookies">
+				<item value="F:\eclipse\ServletCookies\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\ServletCookies\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="SpringRowMapper">
+				<item value="F:\eclipse\SpringRowMapper\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\SpringRowMapper\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="SpringNamedPreparedStatement">
+				<item value="F:\eclipse\SpringNamedPreparedStatement\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\SpringNamedPreparedStatement\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="hqlinsert">
+				<item value="F:\eclipse\hqlinsert\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\hqlinsert\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="assignment1">
+				<item value="" key="antpath"/>
+				<item value="C:\Users\RAM ASHISH\Desktop\anandwadi" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="September">
+				<item value="F:\eclipse\September\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\September\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="mavendemo">
+				<item value="F:\eclipse\mavendemo\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\mavendemo\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="nestedclass">
+				<item value="F:\eclipse\nestedclass\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\nestedclass\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="jsp">
+				<item value="F:\eclipse\jsp\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\jsp\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="pattern">
+				<item value="F:\eclipse\pattern\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\pattern\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="jdbc">
+				<item value="F:\eclipse\jdbc\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\jdbc\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="constructorinjection">
+				<item value="F:\eclipse\constructorinjection\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\constructorinjection\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="RemoteSystemsTempFiles">
+				<item value="F:\eclipse\RemoteSystemsTempFiles\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\RemoteSystemsTempFiles\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="SpringSet">
+				<item value="F:\eclipse\SpringSet\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\SpringSet\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="hibernateannotation">
+				<item value="F:\eclipse\hibernateannotation\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\hibernateannotation\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="hibernateversioning">
+				<item value="F:\eclipse\hibernateversioning\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\hibernateversioning\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Travels">
+				<item value="F:\eclipse\Travels\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\Travels\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Z">
+				<item value="F:\eclipse\Z\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\Z\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="SpringSetObject">
+				<item value="F:\eclipse\SpringSetObject\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\SpringSetObject\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="SpringListObject">
+				<item value="F:\eclipse\SpringListObject\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\SpringListObject\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="hibernatesfetch">
+				<item value="F:\eclipse\hibernatesfetch\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\hibernatesfetch\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="hqlselect">
+				<item value="F:\eclipse\hqlselect\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\hqlselect\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="SpringPreparedStatement">
+				<item value="F:\eclipse\SpringPreparedStatement\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\SpringPreparedStatement\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="hibernateinsert">
+				<item value="F:\eclipse\hibernateinsert\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\hibernateinsert\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="registerLog">
+				<item value="F:\eclipse\registerLog\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\registerLog\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="springmvccrud">
+				<item value="F:\eclipse\springmvccrud\javadoc.xml" key="antpath"/>
+				<item value="F:\eclipse\springmvccrud\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+		</section>
+	</section>
+	<section name="DialogBounds_AddUnimplementedConstructorsDialog">
+		<item value="519" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="627" key="DIALOG_HEIGHT"/>
+		<item value="432" key="DIALOG_X_ORIGIN"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="JavadocWizardDialog">
+		<item value="616" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="567" key="DIALOG_HEIGHT"/>
+		<item value="383" key="DIALOG_X_ORIGIN"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="completion_proposal_size">
+		<item value="221" key="contextSelector.size.y"/>
+		<item value="331" key="contextSelector.size.x"/>
+	</section>
+	<section name="AddGetterSetterDialog">
+		<item value="false" key="SortOrdering"/>
+		<item value="false" key="RemoveFinal"/>
+	</section>
+	<section name="JavaElementSearchActions">
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="false" key="renameSubpackages"/>
+		<item value="false" key="updateQualifiedNames"/>
+		<item value="*" key="patterns"/>
+		<item value="false" key="updateSimilarElements"/>
+		<item value="false" key="updateTextualMatches"/>
+		<item value="1" key="updateSimilarElementsMatchStrategy"/>
+	</section>
+	<section name="ProblemSeveritiesConfigurationBlock">
+		<item value="false" key="expanded2"/>
+		<item value="true" key="expanded1"/>
+		<item value="false" key="expanded4"/>
+		<item value="false" key="expanded3"/>
+		<item value="false" key="expanded6"/>
+		<item value="false" key="expanded5"/>
+		<item value="false" key="expanded7"/>
+		<item value="false" key="expanded0"/>
+	</section>
+	<section name="GenerateConstructorUsingFieldsSelectionDialog">
+		<item value="false" key="OmitCallToSuper"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.FilteredTypesSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="-29" key="DIALOG_X_ORIGIN"/>
+			<item value="0" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+	<section name="NewClassWizardPage">
+		<item value="false" key="create_constructor"/>
+		<item value="true" key="create_unimplemented"/>
+	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
+		<item value="false" key="SortMembersMessageDialog.optionalDialog.id"/>
+	</section>
+	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
+		<item value="528" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="696" key="DIALOG_HEIGHT"/>
+		<item value="427" key="DIALOG_X_ORIGIN"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="391" key="DIALOG_X_ORIGIN"/>
+			<item value="39" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+	<section name="DialogBounds_GenerateToStringDialog">
+		<item value="516" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="691" key="DIALOG_HEIGHT"/>
+		<item value="433" key="DIALOG_X_ORIGIN"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item value="600" key="width"/>
+		<item value="400" key="height"/>
+	</section>
+	<section name="SourceActionDialog.methods">
+		<item value="true" key="IgnoreDefault"/>
+		<item value="false" key="SynchronizedModifier"/>
+		<item value="false" key="Comments"/>
+		<item value="1" key="VisibilityModifier"/>
+		<item value="0" key="StringStyle"/>
+		<item value="0" key="ToStringTemplateSelected"/>
+		<item value="false" key="LimitElements"/>
+		<item value="false" key="SkipNull"/>
+		<item value="false" key="FinalModifier"/>
+		<item value="10" key="LimitValue"/>
+	</section>
+	<section name="AddUnimplementedConstructorsDialog">
+		<item value="false" key="OmitCallToSuper"/>
+	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item value="0" key="index"/>
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item value="2" key="pageIndex"/>
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="NewPackageWizardPage">
+		<item value="false" key="create_package_info_java"/>
+	</section>
+</section>

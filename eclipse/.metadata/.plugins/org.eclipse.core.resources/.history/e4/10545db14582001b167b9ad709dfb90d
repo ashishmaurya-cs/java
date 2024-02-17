@@ -1,0 +1,39 @@
+package com.ashish;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class EboxAdditionB_2 {public static void main(String[] args) {
+	 String baseUrl = "http://hcl.e-box.co.in/uploads/Selenium_base_projects/19443-add.html";
+	 
+	  System.setProperty("webdriver.chrome.driver", "F://software/chroomedriver/chromedriver.exe");
+		
+		WebDriver driver=new ChromeDriver();
+		driver.get(baseUrl);
+	       if(driver.findElement(By.name("textField1")).isDisplayed()){
+	             boolean isField1Present = true;
+	         }
+	         
+	         if(driver.findElement(By.name("textField2")).isDisplayed()){
+	             boolean isField2Present = true;
+	         }
+	         
+	         if(driver.findElement(By.id("submit")).isDisplayed()){
+	             boolean isButtonPresent = true;
+	         }
+	         
+	         driver.findElement(By.name("textField1")).sendKeys("20");
+	         driver.findElement(By.name("textField2")).sendKeys("10");
+	         
+	         driver.findElement(By.id("submit")).click();
+	        String result = driver.findElement(By.id("result")).getText();
+	         System.out.println(result);
+	    driver.quit();
+	  
+		
+}
+
+}
+
+

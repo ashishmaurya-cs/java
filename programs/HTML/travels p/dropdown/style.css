@@ -1,0 +1,54 @@
+body{
+	height: 100%;
+	background-image: url("banner2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.dropdown{
+	position: relative;
+	float: left;
+	margin-left: 5px;
+	display: inline;
+}
+
+.btn{
+	border-radius: 50px;
+	border:2px solid #fff;
+	padding: 15px;
+	outline: none !important;
+	background: transparent;
+	font-size: 20px;
+	cursor: pointer;
+	color: #111;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	width: 100%;
+
+}
+
+ .dropdown:hover .dropdown-content{
+	display: block;
+	
+}
+.dropdown-content a{
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	color: #111;
+	padding: 10px 8px;
+	
+}
+
+.dropdown-content a:hover{
+	border: 2px solid red;
+	background: transparent;
+	border-radius: 50px;
+	color: #fff;
+	background-color: #111;
+	
+}

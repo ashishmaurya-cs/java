@@ -1,0 +1,16 @@
+package com.ashish;
+
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
+
+public class EmployeeDao {
+	private NamedParameterJdbcTemplate jdbcTemplate;
+
+	public NamedParameterJdbcTemplate getJdbcTemplate() {
+		return jdbcTemplate;
+	}
+
+	public void setJdbcTemplate(NamedParameterJdbcTemplate jdbcTemplate) {
+		this.jdbcTemplate = jdbcTemplate;
+	}
+	
+}

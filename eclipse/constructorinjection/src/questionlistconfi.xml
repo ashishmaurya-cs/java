@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+ "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+ <beans>
+ <bean id="id2" class="com.ashish.QuestionList">
+ <constructor-arg value="1" type="int"></constructor-arg>
+ <constructor-arg value="what is java"></constructor-arg>
+ <constructor-arg>
+ <list>
+ <value>java is pro. lan.</value>
+ <value>java is a platform</value>
+ </list>
+ </constructor-arg>
+ </bean>
+ </beans>

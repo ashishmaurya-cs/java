@@ -1,0 +1,27 @@
+package com.ashish;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Ebox16_3 {
+	public static void main(String[] args) {
+		  System.setProperty("webdriver.chrome.driver", "F://software/chroomedriver/chromedriver.exe");
+			
+			WebDriver driver=new ChromeDriver();
+			
+			driver.get("http://app.e-box.co.in/uploads/index_10538.html");
+			
+			driver.findElement(By.xpath("/html[1]/body[1]/center[1]/table[1]/tbody[1]/tr[7]/td[2]/button[1]")).click();;
+			String alertMessa=driver.switchTo().alert().getText();
+			driver.switchTo().alert().accept();
+			System.out.println(alertMessa);
+			driver.findElement(By.xpath("/html[1]/body[1]/center[1]/table[1]/tbody[1]/tr[7]/td[2]/button[1]")).click();
+			Alert alert1=driver.switchTo().alert();
+			driver.switchTo().alert().dismiss();
+			driver.close();
+	}
+
+
+}

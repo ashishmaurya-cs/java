@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS3 Counter</title>
+<style>
+body{
+counter-reset:section;
+
+}
+h1{
+counter-reset:sub;
+}
+h2::before{
+counter-increment:section;
+content:"Section " counter(section) ":";
+}
+p::before{
+
+counter-increment:sub;
+content: counter(section)"."counter(sub) " ";
+}
+
+.btn{
+background-color:#4caf50;
+border:none;
+outline:none;
+padding:20px 30px;
+color:#ffffff;
+box-shadow:2px 2px 2px rgba(0,0,0,0.5);
+transition:0.2s;
+}
+.btn:hover{
+background-color:#ffffff;
+color:#4caf50;
+box-shadow:4px 4px 3px rgba(0,0,0,0.4);
+}
+</style>
+</head>
+<body>
+<h2>Hello css</h2>
+<p>This is paragraph.</p>
+<h2>Hello css</h2>
+<p>This is paragraph.</p>
+<h2>Hello css</h2>
+<p>This is paragraph.</p>
+
+<button type="button" class="btn">Click Me</button>
+</body>
+</html>

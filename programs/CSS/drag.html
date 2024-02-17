@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+#t1,#t2{
+border:1px solid cyan;
+width:200px;
+height:200px;
+}</style>
+
+<script>
+function drag(ev){
+ev.dataTransfer.setData("text",ev.target.id);
+}
+function allowDrop(ev){
+ev.preventDefault();
+}
+
+function drop(ev){
+ev.preventDefault();
+var data= ev.dataTransfer.getData("text");
+ev.target.appendChild(document.getElementById(data));
+}
+
+</script>
+<head>
+<body>
+<h1>Welcome in html drag and drop API</h1>
+<div id="t1" ondragover="allowDrop(event)" ondrop="drop(event)"><img src="c:/users/ram ashish/downloads/little.jpg" width="200px" height="200px" id="drag2"ondragstart="drag(event)" draggable="true"><div>
+<div id="t2" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+</body>
+</html>

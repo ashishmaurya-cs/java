@@ -1,0 +1,32 @@
+package com.ashish;
+
+import java.util.Scanner;
+
+public class AStar {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Number of row and column");
+		int m=sc.nextInt();
+		int n=sc.nextInt();
+		double f=Math.ceil(m/2);
+		for(int i =1;i<=m;i++){
+			for(int j=1;j<=n;j++){
+				if(m+1-i==j||i==f){
+					System.out.print("* ");
+				}else{
+					System.out.print("  ");
+				}
+			}
+			
+			for(int j=2;j<=n;j++){
+				if(i==j){
+					System.out.print("* ");
+				}else{
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+		sc.close();
+	}
+}

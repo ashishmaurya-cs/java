@@ -1,0 +1,16 @@
+package com.ashish;
+
+public class ConfusedComplier {
+ 
+		public static void main(String[] args) {
+		int[] a ={1,2,3,};
+		int[] b={1,2,3,};
+		if(a.equals(b)){
+			System.out.println(1);
+		}
+		else{
+			System.out.println(2);
+		}
+		
+	}
+}

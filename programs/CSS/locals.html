@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<script>
+function counter(){
+if(typeof(Storage) !== "undefined"){
+if(localStorage.clickcount){
+localStorage.clickcount=Number(localStorage.clickcount)+1;
+}
+else{
+localStorage.clickcount=1;
+}
+document.getElementById("div1").innerHTML="you clicked button"+localStorage.clickcount+"times"
+}
+else{
+
+document.getElementById("div1").innerHTML="your browser does not support localStorage."}
+
+}
+</script>
+</head>
+<body>
+<button onclick="counter()">Click Me</button>
+<div id="div1"></div>
+<p>click button to see counter in local storage</p>
+</body>
+</html>

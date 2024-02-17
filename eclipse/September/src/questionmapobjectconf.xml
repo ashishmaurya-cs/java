@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+ "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+ <beans>
+ <bean id="id1" class="com.ashish.AnswerMapObject">
+ <property name="ans" value="Java is a platform"></property>
+ <property name="postedBy" value="Ajeet"></property>
+ </bean>
+ 
+ 
+ <bean id="id2" class="com.ashish.AnswerMapObject">
+ <property name="ans" value="java virtual machine"></property>
+ <property name="postedBy" value="Ankit"></property>
+ </bean>
+ 
+ <bean id="id3" class="com.ashish.QuestionMapObject">
+ <property name="questionId" value="101"></property>
+ <property name="question" value="what is java"></property>
+ </bean>
+ 
+ <bean id="id4" class="com.ashish.QuestionMapObject">
+ <property name="questionId" value="102"></property>
+ <property name="question" value="what is JVM"></property>
+ </bean>
+ 
+ <bean id="id5" class="com.ashish.User">
+ <property name="map">
+ <map>
+ <entry key-ref="id3" value-ref="id1"></entry>
+ <entry key-ref="id4" value-ref="id2"></entry>
+ </map>
+ </property>
+ </bean>
+ </beans>

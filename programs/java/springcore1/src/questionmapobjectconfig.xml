@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+ "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+ <beans>
+ <bean id="ans1" class="com.ashish.AnswerMapObject">
+ <property name="id" value="1"></property>
+ <property name="answer" value="Java is a programming language"></property>
+ <property name="postedDate" value="07/02/2020"></property>
+ </bean>
+ 
+  <bean id="ans2" class="com.ashish.AnswerMapObject">
+ <property name="id" value="2"></property>
+ <property name="answer" value="Java is a platform"></property>
+ <property name="postedDate" value="06/02/2020"></property>
+ </bean>
+ 
+ <bean id="user1" class="com.ashish.UserMapObject">
+ <property name="id" value="3"></property>
+ <property name="name" value="Ashish"></property>
+ <property name="email" value="ashish@gmail.com"></property>
+ </bean>
+ 
+  
+ <bean id="user2" class="com.ashish.UserMapObject">
+ <property name="id" value="4"></property>
+ <property name="name" value="Ajeet"></property>
+ <property name="email" value="ajeet@gmail.com"></property>
+ </bean>
+ 
+ 
+  
+ <bean id="question" class="com.ashish.QuestionMapObject">
+ <property name="id" value="3"></property>
+ <property name="name" value="What is java"></property>
+ <property name="answers">
+ <map>
+ <entry key-ref="ans1" value-ref="user1"></entry>
+  <entry key-ref="ans2" value-ref="user2"></entry>
+ </map>
+ </property>
+ </bean>
+ </beans>

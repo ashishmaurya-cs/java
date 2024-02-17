@@ -1,0 +1,21 @@
+package com.ashish;
+
+import java.util.Scanner;
+
+public class Pattern3 {
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter row and column :-");
+		int m= sc.nextInt();
+		int n=sc.nextInt();
+		for(int i=1;i<=m;i++){
+			for(int j=i;j<=n;j++){
+				if(j<=m+1-i){
+					System.out.println("* ");
+				}else{
+					System.out.println("  ");
+				}
+			}
+		}
+	}
+}

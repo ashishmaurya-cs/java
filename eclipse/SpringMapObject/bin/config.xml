@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+ "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+ <beans>
+ <bean id="id1" class="com.ashish.Question">
+ <property name="questionId" value="1"></property>
+ <property name="question" value="What is java"></property>
+ </bean>
+  <bean id="id2" class="com.ashish.Question">
+ <property name="questionId" value="2"></property>
+ <property name="question" value="What is Mysql"></property>
+ </bean>
+ 
+  <bean id="id3" class="com.ashish.Answer">
+ <property name="ans" value="Java is a programming language"></property>
+ <property name="By" value="Ashish"></property>
+ </bean>
+  <bean id="id4" class="com.ashish.Answer">
+ <property name="ans" value="Mysql is a database"></property>
+ <property name="By" value="Ajeet"></property>
+ </bean>
+ 
+  <bean id="id5" class="com.ashish.User">
+<property name="user">
+<map>
+<entry key-ref="id1" value-ref="id3"></entry>
+<entry key-ref="id2" value-ref="id4"></entry>
+</map>
+</property>
+ </bean>
+ </beans>

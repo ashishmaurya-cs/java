@@ -1,0 +1,5 @@
+1582569775509	Rename resource 'helloPage.jsp'
+1582569943757	Rename resource 'hello.jsp'
+1582598905226	Move 'web.xml' to 'WebContent'
+1582598914175	Move 'web.xml' to 'WEB-INF'
+1582599768527	Move compilation unit

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="F:/software/selenium_jar/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="F:/software/selenium_jar/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="F:/software/selenium_jar/libs/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="F:/software/selenium_jar/libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="F:/software/selenium_jar/libs/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="F:/software/selenium_jar/libs/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="F:/software/selenium_jar/libs/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="F:/software/JUnit_Jars/JUnit jars/assertj-core-1.5.0.jar"/>
+	<classpathentry kind="lib" path="F:/software/JUnit_Jars/JUnit jars/common-lang3.jar"/>
+	<classpathentry kind="lib" path="F:/software/JUnit_Jars/JUnit jars/commons-beanutils-1.9.2.jar"/>
+	<classpathentry kind="lib" path="F:/software/JUnit_Jars/JUnit jars/hamcrest-all-1.3.jar"/>
+	<classpathentry kind="lib" path="F:/software/JUnit_Jars/JUnit jars/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="F:/software/JUnit_Jars/JUnit jars/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="F:/software/JUnit_Jars/JUnit jars/xsoup-0.3.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

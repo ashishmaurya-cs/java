@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        <beans>
+        <bean id="id1" class="com.ashish.Address">
+        <property name="state" value="up"></property>
+        <property name="country" value="india"></property>
+        </bean>
+        
+        <bean id="id2" class="com.ashish.Employee">
+        <property name="empId" value="101"></property>
+        <property name="name" value="Anoop"></property>
+        <property name="address" ref="id1"></property>
+        </bean>
+        </beans>

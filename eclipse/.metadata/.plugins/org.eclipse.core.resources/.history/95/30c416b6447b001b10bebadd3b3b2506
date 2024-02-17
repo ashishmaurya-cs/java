@@ -1,0 +1,130 @@
+package com.ashish;
+
+
+import java.awt.*;
+
+//import java.awt.Font;
+//import java.awt.Toolkit;
+//import java.awt.Color;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+import javax.swing.border.EmptyBorder;
+
+public class Module extends JFrame{
+	 private static final long serialVersionUID = 1L;
+	    private JPanel contentPane;
+	    private JButton b1; 
+	    private JButton b2;
+	    private JButton b3;
+	    private JButton b4;
+	    private JButton b5;
+	    public static void main(String[] args) {
+	        EventQueue.invokeLater(new Runnable() {
+	            public void run() {
+	                try {
+	                    Module frame = new Module();
+	                    frame.setVisible(true);
+	                } catch (Exception e) {
+	                    e.printStackTrace();
+	                }
+	            }
+	        });
+	    }
+	    
+	    public Module(){
+	    	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	    	setBounds(230, 80, 1014, 597);
+	        setResizable(false);
+	        contentPane = new JPanel();
+	        contentPane.setBorder(new EmptyBorder(5, 5, 5,5));
+	        setContentPane(contentPane);
+	        contentPane.setLayout(null);
+	        Color lightBlue=new Color(0,0,182,100);
+	        contentPane.setBackground(lightBlue);
+	        
+	        
+	        JLabel label=new JLabel("Welcome to HCL bank");
+	        label.setFont(new Font("Tahoma",Font.PLAIN,35));
+	        label.setBounds(340,30,400,40);
+	        contentPane.add(label);
+	        
+	        JLabel labelName=new JLabel("");
+	        labelName.setFont(new Font("Tahoma",Font.PLAIN,35));
+	        labelName.setBounds(340,40,400,40);
+	        contentPane.add(labelName);
+	        
+	        
+	        
+	        
+	        b1 =new JButton("Deposit");
+            b1.setFont(new Font("Tahoma",Font.PLAIN,25));
+            b1.setBounds(200,130, 200, 74);
+            b1.setBackground(Color.GREEN);
+            contentPane.add(b1);
+            
+            b2 =new JButton("Withdraw");
+            b2.setFont(new Font("Tahoma",Font.PLAIN,25));
+            b2.setBounds(650,130, 200, 74);
+            b2.setBackground(Color.GREEN);
+            contentPane.add(b2);
+            b2.addActionListener(new ActionListener() {
+				
+				@Override
+				public void actionPerformed(ActionEvent e) {
+					new WithDrawAmount().setVisible(true);
+					
+				}
+			});
+            
+            
+            b3 =new JButton("Transfer");
+            b3.setFont(new Font("Tahoma",Font.PLAIN,25));
+            b3.setBounds(200,300, 200, 74);
+            b3.setBackground(Color.GREEN);
+            contentPane.add(b3);
+            
+            b4 =new JButton("Check_balance");
+            b4.setFont(new Font("Tahoma",Font.PLAIN,25));
+            b4.setBounds(650,300, 200, 74);
+            b4.setBackground(Color.GREEN);
+            contentPane.add(b4);
+           
+            
+          
+            
+            b5 =new JButton("Log out");
+            b5.setFont(new Font("Tahoma",Font.PLAIN,25));
+            b5.setBounds(420,450, 200, 74);
+            b5.setBackground(Color.GREEN);
+            contentPane.add(b5);
+            
+            
+	        b5.addActionListener(new ActionListener() {
+	        	public void actionPerformed(ActionEvent ae) {
+	        		new UserLogin().setVisible(true);
+	        	}
+	        		
+	        });
+	        
+	        
+	   }
+
+		public Module(String nameD, Long mobD) {
+			
+		}
+}

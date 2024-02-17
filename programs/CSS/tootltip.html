@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome in the CSS tooltip</title>
+<style>
+.tooltip{
+cursor:pointer;
+position:relative;
+display:inline-block;
+
+
+
+}
+
+.tooltip-content{
+position:absolute;
+width:120px;
+background-color:black;
+text-align:center;
+color:white;
+display:none;
+border-radius:3em;
+bottom:130%;
+left:50%;
+margin-left:-60px;
+
+
+}
+
+.tooltip-content::after{
+content:" ";
+position:absolute;
+top:100%;
+left:50%;
+margin-left:-5px;
+border-width:5px;
+border-style:solid;
+border-color:black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltip-content{
+display:block;
+}
+</style>
+</head>
+<body style="text-align:center;">
+<h1>Right Tooltip</h1>
+<div class="tooltip">hover here
+<div class="tooltip-content">It's Me Tooltip :)</div>
+</div>
+</body>
+</html>

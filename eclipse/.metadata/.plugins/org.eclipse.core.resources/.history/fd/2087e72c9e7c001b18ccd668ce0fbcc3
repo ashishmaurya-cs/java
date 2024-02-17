@@ -1,0 +1,172 @@
+package com.ashish;
+
+import java.awt.*;
+
+//import java.awt.Font;
+//import java.awt.Toolkit;
+//import java.awt.Color;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+import javax.swing.border.EmptyBorder;
+
+public class UserLogin extends JFrame{
+	  private static final long serialVersionUID = 1L;
+	    private JPanel jPanel;
+	    private JTextField email;
+	    private JPasswordField passwordField;
+	    private JButton btnLogin;
+	    private JButton btnRegistration;
+	    
+	    public static void main(String[] args) {
+	        EventQueue.invokeLater(new Runnable() {
+	            public void run() {
+	                try {
+	                    UserLogin userLogin = new UserLogin();
+	                    userLogin.setVisible(true);
+	                } catch (Exception e) {
+	                    e.printStackTrace();
+	                }
+	            }
+	        });
+	    }
+	    
+	    public UserLogin() {
+	    	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	    	setBounds(350, 190, 530, 420);
+	        setResizable(false);
+	        jPanel = new JPanel();
+	        jPanel.setBorder(new EmptyBorder(5, 5, 5,5));
+	        setContentPane(jPanel);
+	        jPanel.setLayout(null);
+	       // Color lightBlue=new Color(0,0,182,100);
+	        jPanel.setBackground(Color.BLUE);
+	        
+	        JLabel label=new JLabel("Login Page");
+	        label.setFont(new Font("Tahoma",Font.PLAIN,35));
+	        label.setBounds(180,30,180,40);
+	        label.setForeground(Color.WHITE);
+	        jPanel.add(label);
+	        
+	        
+	        JLabel lblEmailAddress = new JLabel("Enter Email");
+	        lblEmailAddress.setFont(new Font("Tahoma", Font.PLAIN, 25));
+	        lblEmailAddress.setBounds(30, 100, 180, 40);
+	        lblEmailAddress.setForeground(Color.WHITE);
+	        jPanel.add(lblEmailAddress);
+	        
+
+	        email = new JTextField();
+	        email.setFont(new Font("Tahoma", Font.PLAIN, 25));
+	        email.setBounds(230,100,250,40);
+	        jPanel.add(email);
+	        email.setColumns(10);
+
+	        
+	        JLabel lblPassword=new JLabel("Enter Password");
+	        lblPassword.setBounds(30, 200, 180, 40);
+	        lblPassword.setFont(new Font("Tahoma", Font.PLAIN, 25));
+	        lblPassword.setForeground(Color.WHITE);
+	        jPanel.add(lblPassword);
+	        
+	        passwordField =new JPasswordField();
+	        passwordField.setFont(new Font("Tahoma",Font.PLAIN,32));
+	        passwordField.setBounds(230, 200, 250, 40);
+	        jPanel.add(passwordField);
+	        passwordField.setColumns(10);
+	        
+	      btnLogin =new JButton("Login");
+          btnLogin.setFont(new Font("Tahoma",Font.PLAIN,25));
+          btnLogin.setBounds(110,300, 140, 50);
+          btnLogin.setBackground(Color.black);
+          btnLogin.setForeground(Color.white);
+          jPanel.add(btnLogin);
+	        
+	        btnRegistration = new JButton("Sign Up");
+	        btnRegistration.setFont(new Font("Tahoma", Font.PLAIN, 25));
+	        btnRegistration.setBounds(290,300,140, 50);
+	        btnRegistration.setBackground(Color.black);
+	        btnRegistration.setForeground(Color.white);
+	        jPanel.add(btnRegistration);
+	        
+	       
+	        
+	        
+	        btnLogin.addActionListener(new ActionListener() {
+	        	public void actionPerformed(ActionEvent ae) {
+	        	    String emailId=email.getText();
+	        	    String pass	= passwordField.getText();        	    
+	        		if(emailId.isEmpty()||pass.isEmpty()) {
+	        			JOptionPane.showMessageDialog(btnLogin, "Please Enter Email or password");	
+	        		}
+	        		else{
+	        			java.sql.Connection con;
+	        			try {
+	        				Class.forName("com.mysql.jdbc.Driver");
+	        				con=DriverManager.getConnection("jdbc:mysql://localhost:3306/ashish?useSSL=false",
+	        							"root", "password");
+	        				java.sql.Statement st=con.createStatement();
+	        				ResultSet res=st.executeQuery("select * from account where Email='"+emailId+"'");
+	        					
+	        					if(res.next()){
+	        						String emailD=res.getString("Email");
+		        					int passwordD=res.getInt("Password");
+		        					String nameD=res.getString("Name");
+		        					if(emailId.equals(emailD)&&Integer.parseInt(pass)==passwordD){
+		        						new Module(nameD,emailD).setVisible(true);
+		        						
+		       
+		        					}
+		        					else{
+		        						JOptionPane.showMessageDialog(btnLogin, "Invalid Email or password");
+		        					}
+	        					}
+	        					else{
+	        						JOptionPane.showMessageDialog(btnLogin, "Invalid Email or password");
+	        					}
+	        				
+	        				
+	        			   con.close();
+	        					
+	        				} catch (SQLException e) {
+	        					e.printStackTrace();
+	        				}
+	        			
+	        				catch (Exception e) {
+	        					e.printStackTrace();
+	        				}
+	        			
+	        		}
+	        	    
+	        	    
+	        		
+	        		
+	        		//JOptionPane.showMessageDialog(btnNewButton, "You are successfully logged in");
+	        	}
+	        		
+	    });
+	        
+	        btnRegistration.addActionListener(new ActionListener() {
+	        	public void actionPerformed(ActionEvent ae) {
+	        	  new UserRegistration().setVisible(true);
+	        	}
+	          });
+	        
+	     
+	        
+	    }
+}

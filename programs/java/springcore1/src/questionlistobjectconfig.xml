@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+ "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+ <beans>
+ <bean id="id1" class="com.ashish.Answers">
+ <property name="id" value="10"></property>
+ <property name="answers" value="Java is Platform independent language"></property>
+ <property name="by" value="Ashish"></property>
+ </bean>
+ 
+ <bean id="id2" class="com.ashish.Answers">
+ <property name="id" value="20"></property>
+ <property name="answers" value="Java is Portable"></property>
+ <property name="by" value="Ajeet"></property>
+ </bean>
+ 
+ <bean id="id3" class="com.ashish.QuestionListObject">
+ <property name="id" value="1"></property>
+ <property name="question" value="Whta is java"></property>
+ <property name="answers">
+ <list>
+ <ref bean="id1"/>
+ <ref bean="id2"/>
+ </list>
+ </property>
+ </bean>
+ </beans>

@@ -1,0 +1,26 @@
+package com.ashish;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
+
+public class EmployeeDao {
+	private NamedParameterJdbcTemplate jdbcTemplate;
+
+	public NamedParameterJdbcTemplate getJdbcTemplate() {
+		return jdbcTemplate;
+	}
+
+	public void setJdbcTemplate(NamedParameterJdbcTemplate jdbcTemplate) {
+		this.jdbcTemplate = jdbcTemplate;
+	}
+	public boolean save(Employee e){
+		String query="insert into employee22 values(:id,:name,salary)";
+		Map<String, Object> map=new HashMap<String, Object>();
+		map.put("id", e.getId());
+		return (Boolean) null;
+		
+
+	}
+}

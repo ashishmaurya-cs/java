@@ -1,0 +1,29 @@
+package com.ashish;
+
+import java.util.Scanner;
+
+public class InterThreadExample extends Thread{
+	int balance=1000;
+	synchronized void withdraw(int withdraw){
+			
+		try {
+			if(withdraw<balance){
+				System.out.println("Waiting for deposit");
+				wait();
+			}
+			
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		}
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter money to withdraw..");
+		int withdraw=sc.nextInt();
+		System.out.println("Enter money for deposit...");
+		int deposit=sc.nextInt();
+		
+	}
+
+}

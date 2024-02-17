@@ -1,0 +1,7 @@
+1583823198464	Rename package 'hibernateweb'
+1583843387917	Delete element
+1583844119287	Rename resource 'hibernate.cfg.xml'
+1583844168651	Rename resource 'hibernate.cfg1.xml'
+1583844632697	Move 'hibernate.cfg.xml' to 'src'
+1583844769289	Delete element
+1583845766034	Move 'user.hbm.xml' to 'src'

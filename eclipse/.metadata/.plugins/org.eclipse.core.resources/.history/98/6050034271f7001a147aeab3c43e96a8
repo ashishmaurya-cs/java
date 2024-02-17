@@ -1,0 +1,12 @@
+package com.ashish;
+
+public class EmployeeTest {
+	public static void main(String[] args) {
+		String s= "HackerRAnk";
+		String ss=" is best place to learn and coding!";
+		s=s+ss;
+		System.out.println(s);
+		
+	}
+
+}

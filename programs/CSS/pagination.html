@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome in CSS pegination</title>
+<style>
+
+div a{
+text-decoration:none;
+display:inline-block;
+padding:5px 10px;
+margin:0px;
+float:left;
+border:1px solid grey;
+transition:background-color 2s;
+}
+
+ a.active{
+background-color:#4caf50;
+
+}
+a:hover:not(.active){
+background-color:#abc;
+}
+
+div a:first-child{
+border-top-left-radius:0.5em;
+border-bottom-left-radius:0.5em;
+}
+div a:last-child{
+border-top-right-radius:0.5em;
+border-bottom-right-radius:0.5em;
+}
+</style>
+</head>
+<body>
+<h1>Welcome in the pagination of CSS </h1>
+<div>
+<a href="#"><</a>
+<a href="#">1</a>
+<a href="#">2</a>
+<a href="#" class="active">3</a>
+<a href="#">4</a>
+<a href="#">5</a>
+<a href="#">6</a>
+<a href="#">7</a>
+<a href="#">8</a>
+<a href="#">9</a>
+<a href="#">10</a>
+<a href="#">></a>
+</div>
+
+
+</body>
+</html> 

@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Animation button</title>
+<style>
+ .btn{
+background-color:#dd2375;
+border:none;
+outline:none;
+font-size:20px;
+cursor:pointer;
+color:white;
+width:180px;
+text-align:center;
+padding:20px;
+transition all 1s;
+border-radius:2em;
+}
+
+.btn span{
+
+position:relative;
+display:inline-block;
+transition:0.5s;
+
+}
+.btn span::after{
+content:" >>";
+opacity:0;
+top:0px;
+right:-30px;
+position:absolute;
+transition:0.5s;
+
+}
+.btn:hover span{
+padding-right:25px;
+}
+.btn:hover span::after{
+opacity:1;
+right:0;
+}
+</style>
+</head>
+<body>
+<h1>Animation button using CSS3</h1>
+
+<button  type="button"class="btn"><span>Hover here</span></button>
+
+</body>
+</html>

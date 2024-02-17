@@ -1,0 +1,42 @@
+package com.ashish;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Ebox16_AB2 {
+private static boolean h1Present;
+private static boolean fieldname1;
+private static boolean fieldname2;
+private static boolean fieldname3;
+private static String welcomeMsg;
+
+public static void main(String[] args) {
+	 System.setProperty("webdriver.chrome.driver", "F://software/chroomedriver/chromedriver.exe");
+		
+		WebDriver driver=new ChromeDriver();
+		driver.get("http://app.e-box.co.in/uploads/Forms_new1.html");
+		 if(driver.findElement(By.xpath("//body//center//h1")).isDisplayed()){
+	            h1Present =true;
+	        }
+	        String h1Element = driver.findElement(By.xpath("//body//center//h1")).getText();
+	        h1Element.contains("Login Page");
+	        if(driver.findElement(By.name("username")).isDisplayed()){
+	            fieldname1=true;
+	        }
+	         if(driver.findElement(By.name("password")).isDisplayed()){
+	            fieldname2=true;
+	        }
+	          if(driver.findElement(By.id("loginButton")).isDisplayed()){
+	            fieldname3=true;
+	        }
+	         boolean b = driver.findElement(By.xpath("//div[@id='result']")).isDisplayed();
+	        
+	        driver.findElement(By.name("username")).sendKeys("Minion");
+	        driver.findElement(By.name("password")).sendKeys("minion");
+	        driver.findElement(By.xpath("//button[@id='loginButton']")).click();
+	        
+	        welcomeMsg = driver.findElement(By.xpath("//div[@id='result']")).getText();
+	        welcomeMsg.contains("Welcome!!!");
+}
+}

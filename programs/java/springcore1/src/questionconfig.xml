@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+ "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+ <beans>
+ <bean id="id1" class="com.ashish.Question">
+ <property name="id" value="1"></property>
+ <property name="question" value="What is Java"></property>
+ <property name="answers">
+<list>
+<value>Java is a platform</value>
+<value>Java is a language</value>
+</list>
+ </property>
+ </bean>
+ </beans>

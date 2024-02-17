@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head><title>Welcome in CSS  horizontal navigation bar!</title>
+<style>
+body{
+margin:0px;
+}
+ul{
+list-style-type:none;
+margin:0px;
+padding:0px;
+overflow:hidden;
+background-color:#333;
+line-height:30px;
+top:0;
+position:fixed;
+width:100%
+}
+ li{
+float:left;
+}
+li a{
+display:block;
+color:white;
+text-align:center;
+padding:10px 20px;
+text-decoration:none;
+
+}
+li a:hover:not(.active){
+background-color:#111;
+color:white;
+}
+
+.active{
+background-color:#0573ff;
+}
+
+::selection{
+color:white;
+background-color:green;
+}
+
+footer{
+color:white;
+background-color:black;
+font-size:20px;
+}
+.img-deco{
+	background-image: url(c:/users/ram ashish/pictures/little.jpg);
+	background-size: cover;
+}
+</style>
+</head>
+<body>
+<ul>
+<li><a href="f:/programs/html/index.html" class="active">Home</a></li>
+<li><a href="f:/programs/html/index.html">About</a></li>
+<li><a href="f:/programs/html/index.html">Services</a></li>
+<li><a href="f:/programs/html/index.html">Mission</a></li>
+<li><a href="f:/programs/html/index.html">Contact Us</a></li>
+</ul>
+<div style="padding:20px;margin-top:30px;background-color:#dddddd;height:1500px;">
+<h1 style="font-style:italic;text-align:center"><q>Work hard for every day</q></h1>
+<div class="img-deco"></div>
+</div>
+
+<div><footer>&copy Copyright ,All Right Reserved to TechAshish.</footer></div>
+</body>
+</html>

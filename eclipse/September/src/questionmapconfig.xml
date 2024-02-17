@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+ "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+ <beans>
+ <bean id="id1" class="com.ashish.QuestionMap">
+ <property name="questionId" value="101"></property>
+ <property name="question" value="what is java"></property>
+ <property name="answers">
+ <map>
+ <entry key="java is programming language" value="Anoop"></entry>
+ <entry key="java is a platform" value="ajeet"></entry>
+ </map>
+ </property>
+ </bean>
+ </beans>

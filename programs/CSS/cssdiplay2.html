@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+#pp, .box{
+background-color:#4caf50;
+padding:10px;
+border:1px solid #a6d8a8;
+margin:auto;
+color:white;
+font-size:16px;
+text-align:center;
+}
+#pp{
+display:none;
+}
+</style>
+</head>
+<body>
+<p class="box" onclick="show()" style="cursor:pointer">Click here to view hidden content</p>
+
+<div id="pp">
+As mentioned in the previous chapter; a block-level element always takes up the full width available
+ (stretches out to the left and right as far as it can).Setting the width of a block-level element will prevent it
+ from stretching out to the edges of its container. Then, you can set the margins to auto, to horiz
+ontally center the element within its container. The element will take up the specified width, and the
+ remaining space will be split equally between the two margins:
+<div>
+
+<input type="button" class="box" onclick="hide()" style="cursor:pointer"value="Click here to  hide content">
+
+<script>
+function show(){
+document.getElementById("pp").style.display="block";
+}
+function hide(){
+document.getElementById("pp").style.display="none";
+}
+</script>
+
+</body>
+</html>
